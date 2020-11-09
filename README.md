@@ -9,7 +9,7 @@ The Project follows a MVVM with Repository pattern architecture. This architectu
 
 The View classes use data binding to communicate updates to their respective ViewModel classes. The ViewModel classes communicate with a Repository class using coroutines and receives responses using LiveData. This is then passed back to the View classes observing this LiveData. The Repository class communicates with a RESTful API using Retrofit and caches the response to a local Room database.
 
-![Alt text](app/docs/images/mvvm_architecture.png?raw=true "MVVM Architecture") 
+![Alt text](https://www.nexmobility.com/articles/images/mvvm-architecture-pattern.png?raw=true "MVVM Architecture") 
 
 
 # Libraries Used
